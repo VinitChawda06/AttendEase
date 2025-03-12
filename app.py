@@ -99,7 +99,7 @@ def manage_students_page():
                         del st.session_state.editing
                     if hasattr(st.session_state, 'deleting'):
                         del st.session_state.deleting
-                    st.experimental_rerun()
+                    st.rerun()
     
     if hasattr(st.session_state, 'editing'):
         edit_student(students)
@@ -128,11 +128,11 @@ def edit_student(students):
                     update_student(student_to_edit[0], new_name)
                 st.success(f"Updated student {new_name}")
                 del st.session_state.editing
-                st.experimental_rerun()
+                st.rerun()
         with col2:
             if st.button("Cancel Edit"):
                 del st.session_state.editing
-                st.experimental_rerun()
+                st.rerun()
 
 def confirm_delete_student(students):
     st.subheader("Confirm Delete Student")
@@ -145,11 +145,11 @@ def confirm_delete_student(students):
                 delete_student(student_to_delete[0])
                 st.success(f"Deleted student {student_to_delete[1]}")
                 del st.session_state.deleting
-                st.experimental_rerun()
+                st.rerun()
         with col2:
             if st.button("Cancel Delete"):
                 del st.session_state.deleting
-                st.experimental_rerun()
+                st.rerun()
 
 def attendance_reports_page():
     st.header("Attendance Reports")
