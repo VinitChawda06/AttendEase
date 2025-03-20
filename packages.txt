@@ -1,0 +1,7 @@
+libboost-all-dev
+libsm6
+libxext6
+ffmpeg
+cmake
+build-essential
+libgl1-mesa-glx
