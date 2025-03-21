@@ -1,7 +1,7 @@
 streamlit==1.43.0           # UI framework
 streamlit-option-menu
 opencv-python-headless      # Image processing
-numpy==1.24.3               # Using a more compatible version
-face-recognition==1.3.0     # Facial recognition library
-pandas==2.0.3               # Using a version compatible with numpy 1.24.3
+numpy>=1.26.0               # Python 3.12 compatible version
+face-recognition            # Facial recognition library
+pandas>=2.1.0               # Compatible with newer NumPy
 openpyxl                    # Excel file support
