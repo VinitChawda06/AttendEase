@@ -1,9 +1,9 @@
-streamlit                   # UI framework
+streamlit==1.43.0           # UI framework
 streamlit-option-menu
 opencv-python-headless      # Image processing
-numpy                       # Numerical operations
-face-recognition            # Facial recognition library
-pandas                      # Data handling & exporting
+numpy==2.2.0                # Numerical operations
+face-recognition==1.3.0     # Facial recognition library
+pandas==2.2.0               # Data handling & exporting
 openpyxl                    # Excel file support
 
 # filepath: packages.txt
