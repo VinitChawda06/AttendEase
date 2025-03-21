@@ -1,7 +1,7 @@
-libboost-all-dev
+build-essential
+cmake
 libsm6
 libxext6
-ffmpeg
-cmake
-build-essential
+libgtk2.0-dev
 libgl1-mesa-glx
+libglib2.0-0
