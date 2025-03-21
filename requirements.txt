@@ -1,50 +1,9 @@
-altair
-attrs
-blinker
-cachetools
-certifi
-charset-normalizer
-click
-cmake
-dlib
-et-xmlfile
-face-recognition
-face-recognition-models
-gitdb
-GitPython
-idna
-Jinja2
-jsonschema
-jsonschema-specifications
-markdown-it-py
-MarkupSafe
-mdurl
-narwhals
-numpy
-opencv-python-headless
-openpyxl
-packaging
-pandas
-pillow
-protobuf
-pyarrow
-pydeck
-Pygments
-python-dateutil
-pytz
-referencing
-requests
-rich
-rpds-py
-six
-smmap
-streamlit
-tenacity
-toml
-tornado
-typing_extensions
-tzdata
-urllib3
-watchdog
-Werkzeug
-XlsxWriter
+streamlit                   # UI framework
+streamlit-option-menu       # Sidebar navigation
+opencv-python               # Image processing
+numpy                       # Numerical operations
+face-recognition            # Facial recognition library
+pandas                      # Data handling & exporting
+openpyxl                    # Excel file support
+sqlite3                     # Database (built-in with Python)
+Pillow
